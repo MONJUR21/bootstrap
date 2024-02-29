@@ -1,0 +1,9 @@
+button1=document.getElementById("button1");
+form1=document.getElementById("form1");
+pTag=document.getElementById("p-tag");
+text=form1.innerText;
+str="";
+button1.addEventListener("click",()=>{
+    pTag.innerText=text;
+    console.log(text);
+})
